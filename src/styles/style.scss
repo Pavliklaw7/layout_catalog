@@ -1,5 +1,4 @@
 @import "_variables";
-@import "_mixin";
 @import "_header";
 @import "_nav";
 @import "_main";
@@ -28,6 +27,4 @@ h3 {
 
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }

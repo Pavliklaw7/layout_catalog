@@ -1,5 +1,6 @@
 .rating {
-  @include flex-space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center end;
   padding-bottom: 20px;
 }

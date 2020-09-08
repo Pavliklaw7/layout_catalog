@@ -1,11 +1,11 @@
-@import "mixin";
 @import "variables";
 
 .header {
-  @include flex-space-between;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
   align-items: center;
-  height: 60px;
-  padding: 10px 50px;
+  // height: 60px;
+  padding: 0 50px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
