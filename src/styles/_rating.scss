@@ -1,6 +1,6 @@
 .rating {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-bottom: 20px;
 }

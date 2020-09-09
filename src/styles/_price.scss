@@ -1,6 +1,6 @@
 .price {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: baseline;
   font-size: $small-font-size;
   padding-bottom: 20px;
@@ -8,7 +8,5 @@
   &__cost {
     font-size: $huge-font-size;
     font-weight: bold;
-    line-height: 19px;
-    grid-column-end: none;
   }
 }
